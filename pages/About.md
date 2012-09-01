@@ -3,26 +3,9 @@ layout: post
 title: About Me
 ---
 
-There are still things to do for this site. However, it is functional as is. Functions that works include:
+This is the personal blog of Quyen Nguyen. He's a chemical engineer, graduated from the University of Texas at Austin, came to the States during my teenage years, and currently working and living in Houston, TX area. With interest in graphic design and web development beside his engineering study, this site was made during his free time for font. Lastly, he does not address himself in third person in real life. 
 
-- Ability to posts with just md
-- Show Math equations correctly with MathJax
-- Font Museo is implemented
+This site was developed from [Jekyll](https://github.com/mojombo/jekyll) blog engine, hosted on [Github Pages](http://pages.github.com/). Posts are written originally in [Markdown](http://daringfireball.net/projects/markdown/). If you see any math equations, they would have been written in `$$ \LaTeX{} $$` and rendered by [MathJax](http://www.mathjax.org/). 
 
-Remaining this todo
-
-- Create a script line to pull font from MyFont
-- Install fonts to Jekyll directory
-- Design the "note" page
-- Footer?
-- Add a scroll up button?
-- Add next and previous button?
-- About page
-- Contact link into just an email link
-- How do I deal with pictures?
-- Side annotations?
-- First article?
-- Hosting site?
-- Deployment? Turn your mac into your personal server?
-- Comment sections?
+For the graphic side, designed using the [960 Grid System](http://960.gs/) and the wonderful, and free [Museo](http://www.myfonts.com/fonts/exljbris/museo/) font
 
