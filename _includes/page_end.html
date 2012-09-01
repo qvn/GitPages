@@ -1,0 +1,38 @@
+
+
+
+<div id="end-sign" class="grid_9 push_2">
+    <div class="grid_2 alpha" style="text-align:left" >
+	{% case page.category == 'page' %}
+	{% when 'page' %} <!-- If it is page, then look for page number -->
+		{% if paginator.previous_page %}
+    	{% if paginator.previous_page == 1 %}
+    	<a href="/">&larr;  Page 1</a>
+    	{% else %}
+    	<a href="/page{{paginator.previous_page}}">&larr; Page {{paginator.previous_page}}</a>
+    	{% endif %}
+		{% else %} &#8195;
+  		{% endif %}
+	{% else%} <!-- Note page? Must be Post -->
+
+		{% if page.next %} <a rel="next" href="{{ page.next.url }}">&larr; Newer</a>
+		{% else %} &#8195;
+		{% endif %}
+	{% endcase %}
+	
+	</div>
+	<div class="grid_1 push_2" style="text-align:center" ><a href="#top" title="Go to Top of page">&uarr;</a></div>
+    <div class="grid_2 push_4" style="text-align:right" >
+	{% case page.category == 'page' %}
+	{% when 'page' %}
+		{% if paginator.next_page %} <a href="/page{{paginator.next_page}}">Page {{paginator.next_page}} &rarr;</a>
+		{% else %} &#8195;
+	  	{% endif %}
+	{% else %}
+		{% if page.previous %} <a rel="prev" href="{{ page.previous.url }}">Older &rarr;</a>
+		{% else %} &#8195;
+		{% endif %}
+	{% endcase %}
+	</div>
+
+</div>

@@ -1,0 +1,14 @@
+<div id="end-sign" class="grid_9 push_2">
+    <div class="grid_2 alpha" style="text-align:left" >
+		{% if page.next %} <a rel="next" href="{{ page.next.url }}">&larr; Newer</a>
+		{% else %} &#8195;
+		{% endif %}
+	</div>
+	<div class="grid_1 push_2" style="text-align:center" ><a href="#top" title="Go to Top of page">&uarr;</a></div>
+    <div class="grid_2 push_4" style="text-align:right" >
+		{% if page.previous %} <a rel="prev" href="{{ page.previous.url }}">Older &rarr;</a>
+		{% else %} &#8195;
+		{% endif %}
+	</div>
+
+</div>

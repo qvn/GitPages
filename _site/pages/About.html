@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>About Me</title>
+   <meta name="author" content="Quyen Nguyen" />
+   <!--MyFonts Font-->
+	<link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+   <!--Default StyleSheet-->
+   <link rel="stylesheet" href="../css/style.css" media="screen" />
+   <!--960 Grid Framework-->
+   <link rel="stylesheet" href="../css/960_12_col.css" media="screen" />
+   <!--javaScript-->
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-24962170-1']);
+	  _gaq.push(['_setDomainName', 'quyennguyen.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<!-- Ajax -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+   <script src="../script/script.js" type="text/javascript"></script>
+	<!--MathJax-->
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script>
+//	http://doswa.com/2011/07/20/mathjax-in-markdown.html to display math script correctly. Latex format
+	MathJax.Hub.Config({
+	    tex2jax: {
+	        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+	    }
+	});
+	MathJax.Hub.Queue(function() {
+	    // Fix <code> tags after MathJax finishes running. This is a
+	    // hack to overcome a shortcoming of Markdown. Discussion at
+	    // https://github.com/mojombo/jekyll/issues/199
+	    var all = MathJax.Hub.getAllJax(), i;
+	    for(i = 0; i < all.length; i += 1) {
+	        all[i].SourceElement().parentNode.className += ' has-jax';
+	    }
+	});
+	</script>
+</head>
+<body class="container_12" id="site_body">	
+<div class="grid_9 push_2" id="site_nav">
+	<div id="site_name" class="grid_1 alpha"><a href="/">QN</a></div>
+	<ul class="grid_8 omega" id="site_menu">
+	    <li><a target="_blank" href="mailto:ma65p2004@gmail.com?Subject=Message from blog">Email</a></li>
+	    <li><a href="/pages/about.html">About</a></li>
+	    <li><a href="/">Home</a></li>
+	 </ul>
+</div>
+	  
+<div class="clear"></div>
+<div class="grid_9 push_2" id="post_content">
+<h2>About Me</h2>
+<div class="date"></div>
+
+<p>There are still things to do for this site. However, it is functional as is. Functions that works include:</p>
+
+<ul>
+<li>Ability to posts with just md</li>
+<li>Show Math equations correctly with MathJax</li>
+<li>Font Museo is implemented</li>
+</ul>
+
+
+<p>Remaining this todo</p>
+
+<ul>
+<li>Create a script line to pull font from MyFont</li>
+<li>Install fonts to Jekyll directory</li>
+<li>Design the "note" page</li>
+<li>Footer?</li>
+<li>Add a scroll up button?</li>
+<li>Add next and previous button?</li>
+<li>About page</li>
+<li>Contact link into just an email link</li>
+<li>How do I deal with pictures?</li>
+<li>Side annotations?</li>
+<li>First article?</li>
+<li>Hosting site?</li>
+<li>Deployment? Turn your mac into your personal server?</li>
+<li>Comment sections?</li>
+</ul>
+
+
+
+</div>
+<div id="end-sign" class="grid_9 push_2">
+    <div class="grid_2 alpha" style="text-align:left" >
+		 &#8195;
+		
+	</div>
+	<div class="grid_1 push_2" style="text-align:center" ><a href="#top" title="Go to Top of page">&uarr;</a></div>
+    <div class="grid_2 push_4" style="text-align:right" >
+		 &#8195;
+		
+	</div>
+
+</div>
+
+
+	<!-- <div id="disqus_thread" class="grid_9 push_2" style="margin: 1em 0 0 0; padding: 1em 0 0 0; border-top: 1px dashed gray">
+   <script type="text/javascript">
+       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+       var disqus_shortname = 'qvn'; // required: replace example with your forum shortname
+
+       /* * * DON'T EDIT BELOW THIS LINE * * */
+       (function() {
+           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+           dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+       })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div> -->
+
+
+</body>
+</html>
