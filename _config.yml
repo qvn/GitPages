@@ -5,7 +5,7 @@ paginate: 10 //number of post per page.
 
 # Github override
 safe: true
-source: https://github.com/ma65p/Jekyll-Blog
+source: https://github.com/ma65p/ma65p.github.com
 destination: /_site/
 lsi: false
 pygments: true
