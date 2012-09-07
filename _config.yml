@@ -23,7 +23,7 @@ site_id : http://quyennguyen.com
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
-comments : false
+comments : true
 provider : disqus
 disqus :
 short_name : qvn
