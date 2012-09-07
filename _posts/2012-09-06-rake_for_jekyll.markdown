@@ -14,7 +14,7 @@ Rake can be used to create a new post or page for Jekyll. However, I happened to
 
 	(See full trace by running task with --trace)
 
-This means I needed to make one learning from these 3 websites:
+This means I needed to make my own rake file. I started from these 3 websites:
 
 1. [Rake Tasks for Jekyll](http://www.layouts-the.me/rake/2011/04/23/rake_tasks_for_jekyll/)
 2. [Rake Tutorial](http://jasonseifer.com/2010/04/06/rake-tutorial)
