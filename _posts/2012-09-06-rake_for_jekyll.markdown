@@ -28,6 +28,7 @@ There is an existing folk of Jekyll called [Jekyll Bootstrap](http://jekyllboots
 And here is my rake file that I use to create post every time.
 
 {% highlight ruby %}
+	
 	# Sources:
 	# http://jasonseifer.com/2010/04/06/rake-tutorial
 	# http://elia.wordpress.com/2008/11/07/get-input-in-rake-tasks/
@@ -62,6 +63,7 @@ And here is my rake file that I use to create post every time.
 	# sh "mate #{path}"
 	
 	end
+	
 {% endhighlight %}	
 
 Usage is quite simple. To create a new post:
