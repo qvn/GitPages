@@ -16,7 +16,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 /*Site Wide*/
 body {
-	font-family: "Museo", Georgia, "Times New Roman", Times, serif;
+	font-family: "Museo-300", Georgia, "Times New Roman", Times, serif;
 }
 
 /*List*/
@@ -62,7 +62,7 @@ p + p{
 }
 
 h2,h3,h4,h5,h6 {
-	font-family: inherit, "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-family: "Museo-700", "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 h2 {
 	margin: 100px 0 0px 0;
