@@ -16,8 +16,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 /*Site Wide*/
 body {
-	font-family: Museo, Georgia, "Times New Roman", Times, serif;
+	font-family: "Museo", Georgia, "Times New Roman", Times, serif;
 }
+
 /*List*/
 
 li > ol,
