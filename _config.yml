@@ -2,31 +2,31 @@ markdown: rdiscount
 permalink:  /posts/:year:month:day_:title.html
 pygments:   true
 paginate: 10 //number of post per page. 
+include: assets/
+## Github override
+#safe: true
+baseurl: https://github.com/ma65p/ma65p.github.com
+##destination: /_site/
+#lsi: false
+#pygments: true
 
-# Github override
-safe: true
-source: https://github.com/ma65p/ma65p.github.com
-destination: /_site/
-lsi: false
-pygments: true
+## Settings for analytics helper
+## Set 'provider' to the analytics provider you want to use.
+## Set 'provider' to false to turn analytics off globally.
+#analytics :
+#provider : google
+#google : 
+#tracking_id : 'UA-24962170-1'
+#getclicky :
+#site_id : http://olidin.com
 
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-analytics :
-provider : google
-google : 
-tracking_id : 'UA-24962170-1'
-getclicky :
-site_id : http://quyennguyen.com
-
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use.
-# Set 'provider' to false to turn commenting off globally.
-comments : true
-provider : disqus
-disqus :
-short_name : qvn
+## Settings for comments helper
+## Set 'provider' to the comment provider you want to use.
+## Set 'provider' to false to turn commenting off globally.
+#comments : false
+#provider : disqus
+#disqus :
+#short_name : qvn
 
 
 
