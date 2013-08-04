@@ -1,18 +1,12 @@
 ---
-layout: default
-category: page
-title: Theus
+layout: page
+title: Latest Posts
+description: "A simple and clean responsive Jekyll theme for words and photos."
+tags: [Jekyll, theme, themes, responsive, blog, minimalism]
 ---
 
-
-<div class="grid_9 push_2">
-
-<h2>Articles</h2>
-<div class="date" style="margin-bottom:40px"></div>
-<ol id="toc">
-{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date: "%b.%d.%y" }}</span></li>
-{% endfor %} 
-</ol>
-</div>
-{% include page_end.html %}
+<ul class="post-list">
+{% for post in site.posts limit:10 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>

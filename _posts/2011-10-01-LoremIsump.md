@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Article
+categories: articles
 title: Praesent arcu est
 ---
 
