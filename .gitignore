@@ -1,6 +1,6 @@
 Test1.esproj
 _site
 *.swp
-_sample
+*.swo
 .DS_Store
 
