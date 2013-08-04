@@ -1,32 +1,48 @@
+description: Chemical engineer. Stumbling around the web smelling like gasoline.
+title: Olidin Theus
+logo: Refinery2Black.jpg
 markdown: rdiscount 
-permalink:  /posts/:year:month:day_:title.html
 pygments:   true
-paginate: 10 //number of post per page. 
-include: assets/
-## Github override
-#safe: true
 baseurl: https://github.com/ma65p/ma65p.github.com
-##destination: /_site/
-#lsi: false
-#pygments: true
+owner: 
+    name: Olidin Theus
+    email: Olidin@outlook.com
+    twitter: https://twitter.com/OlidinTheus
 
-## Settings for analytics helper
-## Set 'provider' to the analytics provider you want to use.
-## Set 'provider' to false to turn analytics off globally.
-#analytics :
-#provider : google
-#google : 
-#tracking_id : 'UA-24962170-1'
-#getclicky :
-#site_id : http://olidin.com
+comment: false
 
-## Settings for comments helper
-## Set 'provider' to the comment provider you want to use.
-## Set 'provider' to false to turn commenting off globally.
-#comments : false
-#provider : disqus
-#disqus :
-#short_name : qvn
+# Links to include in top navigation
+# For external links add external: true
 
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+
+ # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+pygments:    true
+markdown:    kramdown       
 
 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
