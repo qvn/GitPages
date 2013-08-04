@@ -31,5 +31,3 @@ There are no perfect engineers, but the good ones always question everything, le
 [4]: http://mademistakes.com
 [5]: https://twitter.com/mmistakes
 [6]: http://mademistakes.com/articles/so-simple-jekyll-theme.html
-
-
