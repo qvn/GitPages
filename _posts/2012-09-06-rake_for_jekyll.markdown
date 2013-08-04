@@ -8,11 +8,14 @@ I'm no expert at Rails but from [what I gathered](http://jasonseifer.com/2010/04
 
 Rake can be used to create a new post or page for Jekyll. However, I happened to be using the original [Jekyll](https://github.com/mojombo/jekyll), there isn't any Rake file. And Jekyll is a bit underdocumented. So, whenever I attempt 'rake', error occurs:
 
+{% highlight bash%}
 	rake
 	rake aborted!
 	No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
 
 	(See full trace by running task with --trace)
+
+{% endhighlight %}	
 
 This means I needed to make my own rake file. I started from these 3 websites:
 
@@ -68,13 +71,17 @@ And here is my rake file that I use to create post every time.
 
 Usage is quite simple. To create a new post:
 
+{% highlight bash %}
 	rake
-	
+{% endhighlight %}
+
 This will invoke the default action. It will ask you to enter the title, then create a markdown file with proper naming in the _post folder. 
 
 If I turn on (remove the # sign) the option 
 
+{% highlight bash %}
 	sh "mate #{path}"
+{% endhighlight %}
 
 the shell will launch Textmate to edit the file immediately after created the file. 
 
