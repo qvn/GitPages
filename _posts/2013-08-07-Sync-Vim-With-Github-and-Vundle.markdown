@@ -19,12 +19,12 @@ But I have been in love with Vundle after using [spf13][1] so now I insist on us
 I'm going to be short and brief here. Read the [original post][2] if you are confused on the steps.
 
 If you have your own `~/.vim` directory and `.vimrc` file, let's gather them into `~/.vim` directory and then symlink your .vimrc and .gvimrc files:
-
+~~~
 	mv .vimrc ~/.vim/.vimrc
 	mv .gvimrc ~/.vim/.vimrc
 	ln -s ~/.vim/.vimrc ~/.vimrc
 	ln -s ~/.vim/.gvimrc ~/.gvimrc
-
+~~~
 ## Setting Up Git
 
 Turns your .vim directory to a git directory, make an empty README, commit. 
