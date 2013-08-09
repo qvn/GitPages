@@ -45,7 +45,7 @@ figcaption{padding-top:10px;font-size:14px;font-size:0.875rem;line-height:1.7143
 blockquote{font-family:'volkhov',serif;font-style:italic;font-size:24px;font-size:1.5rem;line-height:1;margin-bottom:24px;margin-bottom:1.5rem;padding-left:20px;border-left:8px solid #000000;}
 .footnotes{font-size:14px;font-size:0.875rem;line-height:1.7143;font-family:'source-sans-pro',sans-serif;}
 tt,code,kbd,samp,pre{font-family:'source-code-pro',monospace;}
-p code{font-size:16px;font-size:1rem;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+p code, li code {font-size:16px;font-size:0.75rem;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 .highlight{overflow-x:auto;font-size:12px;font-size:0.75rem;line-height:2;border:1px solid #dedede;}.highlight pre{position:relative;margin:0;padding:1em;}
 .highlight .hll{background-color:#ffffcc;}
 .highlight .c{color:#999988;font-style:italic;}
@@ -576,7 +576,7 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .form-inline label{display:inline-block;}
 .form-inline .radio,.form-inline .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
 .form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
-body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid #000000;}@media only screen and (min-width: 48em){body{font-size:20px;font-size:1.25rem;}}
+body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid #000000;}@media only screen and (min-width: 48em){body{font-size:20px;font-size:1rem;}}
 .navigation-wrapper{text-align:center;*zoom:1;}.navigation-wrapper:before,.navigation-wrapper:after{display:table;content:"";line-height:0;}
 .navigation-wrapper:after{clear:both;}
 .navigation-wrapper ul{display:inline-block;vertical-align:top;margin:0 0 50px;padding:4px 20px;background-color:#000000;-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;*zoom:1;}.navigation-wrapper ul:before,.navigation-wrapper ul:after{display:table;content:"";line-height:0;}
