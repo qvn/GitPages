@@ -42,8 +42,8 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
+    # Turn off coderay line number
+    coderay_line_numbers: ''
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
