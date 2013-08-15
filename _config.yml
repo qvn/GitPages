@@ -16,10 +16,10 @@ comment: false
 # For external links add external: true
 
 links:
+  - title: Home
+    url: /articles
   - title: About
     url: /about
-  - title: Articles
-    url: /articles
   - title: Contact
     url: "mailto:olidin@outlook.com"
     external: true

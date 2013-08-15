@@ -1,10 +1,17 @@
 ---
 layout: post
+<<<<<<< HEAD:_posts/2013-08-13-Sync-Vim-With-Github-and-Vundle.markdown
 category: articles
 tags: vim, spf13, git, Vundle, sync
 ---
 
 I have been fiddling with Vim lately while I was learning Ruby on Rails. I have been using [mVim][https://code.google.com/p/macvim/] for about a few months, on and off. And the only thing I was learning was hjkl movement keys and nevery really learned more than that. 
+=======
+category: article
+tag: vim, spf13, git, Vundle, sync
+---
+
+I have been fiddling with Vim lately while I was learning Ruby on Rails. I have been using [mVim](https://code.google.com/p/macvim/) for about a few months, on and off. And the only thing I was learning was hjkl movement keys and nevery really learned more than that. 
 
 So I decided to do something fancy, to sync them across my mac. My first resource and was about the only one to get started was [this blog post from VimCasts using Pathogen][2]. 
 
@@ -94,7 +101,6 @@ With Vundles installed, to install any git-managed plugins, find the correspondi
      Bundle 'file:///Users/gmarik/path/to/plugin'
      " ...
  {%endhighlight%}
-
 So now, open Vim (or mVim) and install the bundles with: 
 
     :BundleInstall
