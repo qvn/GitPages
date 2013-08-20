@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 category: note
 tag: "note, thinking, objectivity"
