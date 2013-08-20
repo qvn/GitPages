@@ -1,26 +1,22 @@
 ---
 layout: post
-<<<<<<< HEAD:_posts/2013-08-13-Sync-Vim-With-Github-and-Vundle.markdown
 category: articles
 tags: vim, spf13, git, Vundle, sync
 ---
 
-I have been fiddling with Vim lately while I was learning Ruby on Rails. I have been using [mVim][https://code.google.com/p/macvim/] for about a few months, on and off. And the only thing I was learning was hjkl movement keys and nevery really learned more than that. 
-=======
-category: article
-tag: vim, spf13, git, Vundle, sync
----
+I have been fiddling with Vim lately while I was learning Ruby on Rails. The only thing I was learning was `hjkl` movement keys after using [mVim](https://code.google.com/p/macvim/) for about a few months, on and off.
 
-I have been fiddling with Vim lately while I was learning Ruby on Rails. I have been using [mVim](https://code.google.com/p/macvim/) for about a few months, on and off. And the only thing I was learning was hjkl movement keys and nevery really learned more than that. 
+So I decided to do something fancy, to sync them across my mac. Totally have nothing to do with improving vim foo, but it's fun. I got started from [this blog post from VimCasts using Pathogen][2]. 
 
-So I decided to do something fancy, to sync them across my mac. My first resource and was about the only one to get started was [this blog post from VimCasts using Pathogen][2]. 
-
-But I have been in love with Vundle after using [spf13][1] so now I insist on using Vundle. Turns out, it's much easier with Vundle since no need to install git submodule or update them. Vundle takes care all of them for you.
+But being in love with Vundle after using [spf13][1], I insist on using Vundle. Turns out, it's much easier with Vundle since no need to install git submodule or update them. Vundle takes care all of them for you.
 
 *Note:* if you are farmilar with everything, have your .vim on github and just want to switch to Vundle, there are two steps:
 
 1. Install Vundle as usual. Instruction is [here][3]
 2. Put `~/.vim/bundle` to your .gitignore. 
+3. See my example, sloppy [github repo](https://github.com/ma65p/vim)
+
+Here is the long step by step version.
 
 ## Setting up ~.vim
 I'm going to be short and brief here. Read the [original post][2] if you are confused on the steps.
@@ -108,7 +104,7 @@ So now, open Vim (or mVim) and install the bundles with:
 All your bundles that you put in `.vimrc` should install now.
 
 ## Let Vundle Manage Bundles {#UsingVundle}
-The only thing we are going to sync is your .vimrc we will not syn Vundle bundles or even bundles itslef. We'll let Vundles manage all of that. So, don't let git manage your `~/.vim/bundle` folder. So exclude it with .gitignore
+The only thing we are going to sync is your .vimrc. We will not sync Vundle bundles or even Vundles itself. We'll let Vundles manage all of that. So, don't let git manage your `~/.vim/bundle` folder, exclude it with .gitignore
 
 {% highlight bash %}
     touch .gitignore
