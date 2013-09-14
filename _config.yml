@@ -11,7 +11,7 @@ owner:
     twitter: OlidinTheus
     github: ma65p
 
-comment: false
+comment: true
 
 # Links to include in top navigation
 # For external links add external: true
