@@ -22,7 +22,7 @@ The equations needed for calculations are simple. We start from the basics:
 
     $$\dot{Q}=hA(T-T_w)$$
 
-2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change $$\dot{V}]$$ by:
+2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change $$\dot{V}$$ by:
 
     $$\dot{Q}=\dot{m}\lambda=\rho\dot{V}\lambda$$
 
@@ -30,13 +30,19 @@ The equations needed for calculations are simple. We start from the basics:
 
    $$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}$$
     
-   	T: steam saturation temperature
-   	λ: Lambda – steam latent heat
-   	ρ: steam density
-   	h: heat transfer coefficients
-   	Tw: wall temperature
-   	A: surface area
-   	V: volumetric change
+   $$T$$: steam saturation temperature
+   
+   $$λ$$: Lambda – steam latent heat
+   
+   $$ρ$$: steam density
+   
+   $$h$$: heat transfer coefficients
+   
+   $$T_w$$: wall temperature
+   
+   $$A$$: surface area
+   
+   $$V$$: volumetric change
 
 ## Defining Relieving Condition
 
