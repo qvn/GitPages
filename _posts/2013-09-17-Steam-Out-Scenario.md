@@ -7,7 +7,6 @@ comment: true
 comments: true
 ---
 
-## Steam Out Scenario
 I recently sized a vacuum vent for a steam out scenario and API 2000 did not provide guidance to calculate required relief rate. I thought I should share. 
 
 Tank can be cleaned with high pressure steam. After the cleaning, as the tank cools back down to ambient temperature, steam condenses and can create a vacuum inside the tank if the tank is blocked in and/or rains accelerate the condensation rate. [Tank vacuum implosion isn’t pretty](http://www.youtube.com/watch?v=Zz95_VvTxZM).
