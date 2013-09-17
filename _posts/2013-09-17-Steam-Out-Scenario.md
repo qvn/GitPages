@@ -1,9 +1,10 @@
 ---
 published: false
 layout: post
-category: article
+category: articles
 tag: "engineering, overpressure, technical, oil & gas, math"
 comment: true
+comments: true
 ---
 
 ## Steam Out Scenario
