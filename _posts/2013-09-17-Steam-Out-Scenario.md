@@ -81,4 +81,8 @@ Say we have a cold day in Texas ($$60^{\circ}F$$) and wall temperature is unifor
 Only take into accound the area that is exposed to ambient air. That is, exclude the bottom area and include the roof area. 
 
 ## Putting It All Together
-Once you have made a decision on which heat transfer coefficient to use, which wall temperature to use for your location, and stick with \0 psig\ saturdated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$A$$ for different tanks.
+Once you have made a decision on which wall temperature to use for your location, and stick with 0 psig saturated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$h\cdot A$$ for different tanks and heat transfer coefficient.
+
+$$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}=\frac{h\cdot A(212-60)}{973\cdot 0.0373018}=4.18794\cdot h\cdot A$$
+
+I do this when I have 16 tanks to work with, nothing special if you have one or two at at time.
