@@ -48,7 +48,7 @@ The equations needed for calculations are simple. We start from the basics:
 
  Regardless of the pressure of steam used to clean the tank, **steam condition must be evaluated at relieving condition**. For a steam out scenario, relieving condition is saturated steam at relieving vacuum. 
  
-Often, relieving vacuum is very close to vacuum (within 0.5 psig or so), **it is often sufficient to evaluate steam at saturated condition at 0 psig (vacuum)**. 
+Often, relieving vacuum is very close to vacuum (within 0.5 psig or so), **it is often sufficient to evaluate steam at saturated condition at 0 psig(vacuum)**. 
  
 Do not use the steam operating pressure to evaluate the volumetric change. For example, if 150# steam was used to clean the tank, the steam does not actually cause any vacuum until it condenses to ~0 psig. Thus evaluating this scenario with 150# steam is incorrect. *Think about it, why would steam at 150 psig cause a vacuum? It's at 150 psig! That's no vacuum*.
 
@@ -56,11 +56,11 @@ I made that mistake once.
 
 FYI, steam at 0 psig saturation has 
 
-$$T: 212.001^{\circ}F$$
+$$T = 212^{\circ}\: F$$
 
-$$λ = 970.189 btu/lb$$
+$$λ = 970.189\: btu/lb$$
 
-$$ρ = 0.0373018 lb/ft^3$$
+$$ρ = 0.0373018\: lb/ft^3$$
 
 ## Heat Transfer Coefficient
 
@@ -68,17 +68,17 @@ Let's assume heat transfer coefficient h is constant throughout the tank and con
 
 However, at this point, pick a side and stick with it. 
 
-I have been using $$3\; btu/hr\cdot ft^2\cdot F$$ value for my evaluations since I have seen another engineering analysis used the same value before. Or we can be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $$160\; btu/hr\cdot ft^2\cdot F$$. That should be safe.
+I have been using $$3\; btu/hr\cdot ft^2\cdot F$$ value for my evaluations since I have seen another engineering analysis used the same value before. Or we can be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as *steam-cast-iron-water* is $$160\; btu/hr\cdot ft^2\cdot F$$. That should be safe.
 
 It could be confusing to know which heat transfer coefficient to pick and I unfortunately cannot provide a better answer. I myself is very uncertain of what to do. Hopefully there will be research and data to answer this.  
 
 So what do I say when I don't know the answer to your question? *Use your engineering judgement*. Cheers.
 
 ## Wall Temperature
-Say we have a cold day in Texas ($$60^{\circ}F$$) and wall temperature is uniform and the same as ambient temperature during relief. You ought to consider your weather when picking this Tw value. Folks in Alaska will say 60F is pretty toasty. 
+Say we have a cold day in Texas ($$60^{\circ}F$$) and wall temperature is uniform and the same as ambient temperature during relief. You ought to consider your weather when picking this Tw value. Folks in Alaska will say $$60^{\circ}F$$ is pretty toasty. 
 
 ## Surface Area 
 Only take into accound the area that is exposed to ambient air. That is, exclude the bottom area and include the roof area. 
 
 ## Putting It All Together
-Once you have made a decision on which heat transfer coefficient to use, which wall temperature to use for your location, and stick with 0 psig saturdated steam, the only variable left is the area (A). You can be wise and combine all the constants into one and vary A for different tanks.
+Once you have made a decision on which heat transfer coefficient to use, which wall temperature to use for your location, and stick with \0 psig\ saturdated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$A$$ for different tanks.
