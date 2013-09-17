@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: articles
 tag: "engineering, overpressure, technical, oil & gas, math"
