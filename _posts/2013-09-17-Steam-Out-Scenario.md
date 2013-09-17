@@ -22,7 +22,7 @@ The equations needed for calculations are simple. We start from the basics:
 
     $$\dot{Q}=hA(T-T_w)$$
 
-2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change $\dot{V}]$ by:
+2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change $$\dot{V}]$$ by:
 
     $$\dot{Q}=\dot{m}\lambda=\rho\dot{V}\lambda$$
 
