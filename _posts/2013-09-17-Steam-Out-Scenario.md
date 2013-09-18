@@ -19,7 +19,7 @@ The equations needed for calculations are simple. We assume steady state and sta
 
 1. Heat loss to the enviroment is the convective heat transfer:
 
-    $$\dot{Q}=hA(T-T_w)$$
+    $$\dot{Q}=UA(T-T_w)$$
 
 2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change ($$\dot{V}$$) by:
 
@@ -27,7 +27,7 @@ The equations needed for calculations are simple. We assume steady state and sta
 
 3. Combining two two expressions, we have the volumetric change:
 
-   $$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}$$
+   $$\dot{V}=\frac{UA(T-T_w)}{\lambda\rho}$$
     
    $$T$$: Steam saturation temperature
    
@@ -35,7 +35,7 @@ The equations needed for calculations are simple. We assume steady state and sta
    
    $$ρ$$: Steam density at saturation
    
-   $$h$$: Heat transfer coefficient
+   $$U$$: Overall heat transfer coefficient
    
    $$T_w$$: Tank wall temperature
    
@@ -63,7 +63,7 @@ $$ρ = 0.0373018\: lb/ft^3$$
 
 ## Heat Transfer Coefficient
 
-Let's assume heat transfer coefficient $$h$$ is constant throughout the tank and constant during the relief. Picking which value to use is [a topic of debate](http://www.eng-tips.com/viewthread.cfm?qid=155185). I myself contemplate about this. 
+Let's assume heat transfer coefficient $$U$$ is constant throughout the tank and constant during the relief. Picking which value to use is [a topic of debate](http://www.eng-tips.com/viewthread.cfm?qid=155185). I myself contemplate about this. 
 
 However, at this point, pick a side and stick with it. 
 
@@ -80,8 +80,8 @@ Let's assume we have a cold day in Texas ($$60^{\circ}F$$) and wall temperature 
 Only take into accound the area that is exposed to ambient air. That is, exclude the bottom area and include the roof area. 
 
 ## Putting It All Together
-Once you have made a decision on which wall temperature to use for your location, and stick with 0 psig saturated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$h\cdot A$$ for different tanks:
+Once you have made a decision on which wall temperature to use for your location, and stick with 0 psig saturated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$U\cdot A$$ for different tanks:
 
-$$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}=\frac{h\cdot A(212-60)}{973\cdot 0.0373018}=4.18794\cdot h\cdot A$$
+$$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}=\frac{U\cdot A(212-60)}{973\cdot 0.0373018}=4.18794\cdot h\cdot A$$
 
 I do this when I have 16 tanks to work with, nothing special if you have one or two at at time.
