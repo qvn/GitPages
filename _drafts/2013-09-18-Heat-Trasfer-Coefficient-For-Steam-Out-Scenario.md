@@ -6,13 +6,16 @@ I had a post on how to calculate the required relief rate for a [steam out scena
 
 ## Overall Heat Transfer Coefficient Equation
 The configuration for heat transfer that popped into my mind was:
-![Heat Flow Configuration](http://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/fig9WallCondConv_web.jpg)
-where `1` is the outside and `2` is the inside of the tank, with the wall in between. *Note*, when it's raining outside, I'm treating the outside as *water* since 
+![Heat Flow Configuration]({{ site.url }}/images/2013-09-18-Heat-Transfer-Configuration.svg)
+*Note*: when it's raining outside, I'm treating the outside as *water* since air heat transfer coefficient is much smaller than water. 
 
-## Complexity
-The configuration above is overly simplified. There are several ways to make that more complex:
-1. One may include an addtional film of water next to the wall to model a raining enviroment. I simply assume the outside is water (instead of air) since water transfer heat much more effectively than air. Distinguishing (and calculating) heat transfer between water and air is not practical when air heat transfer would be very small compared to that of water. 
-2. Unsteady state. The temperature inside the tank will change. Though it's probably safe to assume that the largest temperature change occurs during the first few minutes when the temperature differences is the greatest. 
-3. Take in account account cooler air entering the tank during relief. A vacuum vent would let air enter the tank and accelerate the cooling process. 
+## Options for Heat Transfer Coefficient Values
+As stated in the [steam out scenario article]({% post_url 2013-09-17-Steam-Out-Scenario %}), simply use $$3\; btu/hr\cdot ft^2\cdot F$$ or be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $$160\; btu/hr\cdot ft^2\cdot F$$. That should be safe.
 
-I can't think of more variables, but as with all engineering problems, there are many many variables that affect all things. I'll just pick whichever is the simplest.
+Or we can do some math instead of just picking random numbers. API 2000 6th ed. Annex E.4 provides assumptions for its calculation of inbreathing scenario (due to raining under normal condition). The heat transfer coefficients used were:
+
+- Rain to ambient: $$15\; W/m^2\cdot K$$.
+- Wall to inside: $$5\; W/m^2\cdot K$$.
+- Film cooling to the outside: $$5000\; W/m^2\cdot K$$.
+
+
