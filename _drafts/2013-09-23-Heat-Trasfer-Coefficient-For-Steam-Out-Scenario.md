@@ -131,7 +131,7 @@ We can now choose $$b$$ and $$n$$ as 0.13 and 0.333, respectively. Therefore,
 
 $$Nu_f = b(GrPr)_{f}^{n} $$
 
-$$h = \frac{k_f}{L} 0.13(GrPr)_{f}^{0.333}=61.40\; btu/hr\cdot ft^2\cdot F$$
+$$h = \frac{k_f}{L} 0.13(GrPr)_{f}^{0.333}=61.40\; \frac{hr\cdot ft^2\cdot F}{btu}$$
 
 ### Steel thermal conductivity
 Thermal conductivity for steel can be found in McCabe as $$9.4\; btu/hr\cdot ft^2\cdot F$$ 
