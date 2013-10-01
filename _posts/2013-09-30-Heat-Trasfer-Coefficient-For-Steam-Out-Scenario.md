@@ -44,13 +44,13 @@ If we assume:
 
 We have the three terms:
 
-$$
-\begin{align}
-\frac{1}{h_{steam}} & \approx \frac{1}{5000} =2.0\times 10^{-8} \\
-\frac{dx}{k_{steel}}&=\frac{0.156}{9.4} =1.662 \times 10^{-3} \\
-\frac{1}{h_{air}}&=\frac{1}{2.303} =0.410 \\
-\end{align}
-$$
+
+
+$$\frac{1}{h_{steam}} & \approx \frac{1}{5000} =2.0\times 10^{-8}$$
+$$\frac{dx}{k_{steel}}&=\frac{0.156}{9.4} =1.662 \times 10^{-3}$$
+$$\frac{1}{h_{air}}&=\frac{1}{2.303} =0.410$$
+
+
 And so we notice
 
 $$\frac{1}{h_{air}} >> \frac{dx}{k_{steel}} >> \frac{1}{h_{steam}}$$
