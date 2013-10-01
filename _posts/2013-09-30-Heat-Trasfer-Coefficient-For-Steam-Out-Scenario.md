@@ -7,7 +7,7 @@ tags: "engineer, relief valve, math, equation"
 layout: post
 ---
 
-`[TOC]`
+
 
 I had a post on how to calculate the required relief rate for a [steam out scenario]({% post_url 2013-09-17-Steam-Out-Scenario %}). However, it was trickly to pick an overall heat transfer coefficient to represent the heat transfer during such event. So I googled around to see what I can find. Of course, people have already talked about it [here](http://www.eng-tips.com/viewthread.cfm?qid=155185) but arrived at no concencus. 
 
@@ -17,19 +17,19 @@ So I went on to tackle this myself.
 In a quick summary, most people from the forum just picked a number for the heat transfer coefficient:
 
 1. I selected $$3\; btu/hr\cdot ft^2\cdot F$$ since I've seen it done before (not really a good reason, I know, but that's why I'm writing this). 
-2. Be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $160\; btu/hr\cdot ft^2\cdot F$. 
+2. Be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $$160\; btu/hr\cdot ft^2\cdot F$$. 
 
 ## Calculate a Heat Transfer Coefficient
-Why pick random numbers without any justifications? **For fun**, we can estimate the heat transfer coefficients. Turns out, I get $2.303\; btu/hr\cdot ft^2\cdot F$. Picking $3\; btu/hr\cdot ft^2\cdot F$ weren't too crazy after all. 
+Why pick random numbers without any justifications? **For fun**, we can estimate the heat transfer coefficients. Turns out, I get $$2.303\; btu/hr\cdot ft^2\cdot F$$. Picking $$3\; btu/hr\cdot ft^2\cdot F$$ weren't too crazy after all. 
 The work of course needs to be verified by someone else. I just post it here for record, take it with skepticism. Read on and have fun. 
 
 ## Summary - The Short Version
 
 We need three coefficients:
 
-1. Convection from steam to wall – with condensation ($h_{steam}$)
-2. Conduction through wall ($k_{steel}$)
-3. Convection from wall to air – without condensation ($h_{air}$)
+1. Convection from steam to wall – with condensation ($$h_{steam}$$)
+2. Conduction through wall ($$k_{steel}$$)
+3. Convection from wall to air – without condensation ($$h_{air}$$)
 
 We need an overall heat transfer coefficient:
 
@@ -37,19 +37,20 @@ $$\frac{1}{U}=\frac{1}{h_{steam}}+\frac{dx}{k_{steel}}+\frac{1}{h_{air}}$$
 
 If we assume: 
 
-- $60^\circ F$ air at atmospheric temperature, 
+- $$60^\circ F$$ air at atmospheric temperature, 
 - Wall temperature is the same as air, 
-- Steam at $0\; psig$ saturation ($212^\circ F$), 
-- Tank is $40ft$ high with $3/16\; in$ wall thickness
+- Steam at $$0\; psig$$ saturation ($$212^\circ F$$), 
+- Tank is $$40ft$$ high with $$3/16\; in$$ wall thickness
 
 We have the three terms:
 
+```
 \begin{align}
 \frac{1}{h_{steam}} & \approx \frac{1}{5000} =2.0\times 10^{-8} \\
 \frac{dx}{k_{steel}}&=\frac{0.156}{9.4} =1.662 \times 10^{-3} \\
 \frac{1}{h_{air}}&=\frac{1}{2.303} =0.410 \\
 \end{align}
-
+```
 And so we notice
 
 $$\frac{1}{h_{air}} >> \frac{dx}{k_{steel}} >> \frac{1}{h_{steam}}$$
