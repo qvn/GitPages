@@ -119,7 +119,7 @@ Steam film-wise condensation | 1,000-3,000
 Water (heating or cooling)   | 50-3,000 
 Air                          | 0.2-10
 
-*Source: Table 11.2 Magnitudes of heat-transfer Coefficients (p.343, McCabe)*
+*Source: Table 11.2 Magnitudes of Heat-Transfer Coefficients (p.343, McCabe)*
 
 We will most likely have a drop-wise condensation on the steam side. However, from the info above, the heat transfer coefficient for steam is around *a thousand time* more than that of air. Therefore:
 
@@ -144,7 +144,7 @@ With all properties evaluated at the mean temperature $$T_f$$ defined as:
 
 $$T_f = \frac{1}{2}(T_w-\overline{T})=0.5\Delta T$$
 
-Where $$T_w$$ is wall temperature and $\overline{T}$ is the fluid bulk temperature. 
+Where $$T_w$$ is wall temperature and $$\overline{T}$$ is the fluid bulk temperature. 
 
 Thermal expansion coefficient for *ideal gas* is defined as:
 
@@ -152,7 +152,7 @@ $$\beta _f=\left ( \frac{\partial v}{\partial T} \right )_p\frac{1}{v} = \frac{1
 
 Values of $$b$$ and $$n$$ are 
 
-**System**      | **Range of $$GrPr$$** | $$b$$  | $$n$$
+**System**      | **Range of GrxPr** | $$b$$    | $$n$$
 Vertical plates | $$10^4-10^9$$      | $$0.59$$ | $$0.25$$
 Vertical plates | $$10^9-10^{12}$$   | $$0.13$$ | $$0.333$$
 
@@ -160,9 +160,8 @@ Vertical plates | $$10^9-10^{12}$$   | $$0.13$$ | $$0.333$$
 
 Let’s say we have $$60F$$ air (close to ideal gas) at atmospheric temperature, wall temperature is the same as air, steam at $$0\; psig$$ saturation ($$212^\circ F$$), and tank is $$40ft$$ high. 
 
-Variable                    | Symbol         | Value | Unit
-----------------------------|----------------|-------|-----
-Wall Height                 | $$L$$           | $$40 $$   |$$ft$$
+**Variable**                | **Symbol**       | **Value** |**Unit**
+Wall Height                 | $$L$$            | $$40 $$   |$$ft$$
 Wall Temp                   | $$T_w$$          |$$212  $$  |$$^\circ F$$
 Fluid Bulk Temp             | $$\overline{T}$$ |$$60  $$   |$$^\circ F$$
 Fluid Mean Temp             | $$T_f$$          |$$76   $$  |$$^\circ F$$
@@ -170,29 +169,27 @@ Bulk & Mean Temp Difference | $$\Delta T$$     |$$152  $$  |$$^\circ F$$
 
 Fluid properties must be evaluated at $T_f$, simulation software like HYSYS is wonderfully useful here.
 
-Variable                    | Symbol         | Value | Unit    
-----------------------------|----------------|-------|---------
-Desity                      | $$\rho_f$$       |$$0.07408$$| $$lb/ft^2$$
+**Variable**                | **Symbol**       | **Value**               |**Unit**
+Desity                      | $$\rho_f$$       |$$0.07408$$              | $$lb/ft^2$$
 Abs Viscosity               | $$\mu_f$$        |$$12.633 \times 10^{-6}$$| $$lb/fts$$
-Heat Capacity               | $$Cp_f$$         |$$0.237 $$ | $$btu/lb^\circ F$$
-Heat Cap. Ratio             | $$k_f$$          |$$1.41  $$ |
-Compressibilty Factor       | $$z$$            |$$0.999 $$ |          
-Gravity Constant            | $$g$$            |$$32.174$$ |$$ft/s^2$$
+Heat Capacity               | $$Cp_f$$         |$$0.237 $$               | $$btu/lb^\circ F$$
+Heat Cap. Ratio             | $$k_f$$          |$$1.41  $$               |
+Compressibilty Factor       | $$z$$            |$$0.999 $$               |          
+Gravity Constant            | $$g$$            |$$32.174$$               |$$ft/s^2$$
 
 So, the results are
 
-Variable                    | Symbol         | Value 
-----------------------------|----------------|------
+**Variable**                | **Symbol**       | **Value** 
 Thermal Expansion Coeff.    |$$\beta_f$$       |$$6.579 \times 10^{-3}$$
 Grashof Number              | $$Gr$$           |$$7.080 \times 10^{13}$$
 Prandtl Number              | $$Pr$$           |$$2.124 \times 10^{-6}$$
 $Gr$ & $Pr$ Product         | $$Gr \times Pr$$ |$$1.508 \times 10^8$$
 
-With value of $$Gr \times Pr$$ known, we can now choose $$b=0.13$$ and $$n=0.333$$. Therefore,
+With value of $$Gr \times Pr$$ known, we can now choose $$b=0.59$$ and $$n=0.25$$. Therefore,
 
 $$Nu_f = b(GrPr)_{f}^{n} $$
 
-$$h_{air} = \frac{k_f}{L} 0.59(GrPr)_{f}^{0.025}=2.303\; \frac{hr\cdot ft^2\cdot F}{btu}$$
+$$h_{air} = \frac{k_f}{L} 0.59(GrPr)_{f}^{0.25}=2.303\; \frac{hr\cdot ft^2\cdot F}{btu}$$
 
 
 ## What if it rains?
