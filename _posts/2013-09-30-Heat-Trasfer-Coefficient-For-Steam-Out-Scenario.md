@@ -16,7 +16,7 @@ So I went on to tackle this myself.
 ## Pick a Heat Transfer Coefficient
 In a quick summary, most people from the forum just picked a number for the heat transfer coefficient:
 
-1. I selected $3\; btu/hr\cdot ft^2\cdot F$ since I've seen it done before (not really a good reason, I know, but that's why I'm writing this). 
+1. I selected $$3\; btu/hr\cdot ft^2\cdot F$$ since I've seen it done before (not really a good reason, I know, but that's why I'm writing this). 
 2. Be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $160\; btu/hr\cdot ft^2\cdot F$. 
 
 ## Calculate a Heat Transfer Coefficient
