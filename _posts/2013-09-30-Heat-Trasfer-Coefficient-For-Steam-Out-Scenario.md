@@ -7,8 +7,6 @@ tags: "engineer, relief valve, math, equation"
 layout: post
 ---
 
-
-
 I had a post on how to calculate the required relief rate for a [steam out scenario]({% post_url 2013-09-17-Steam-Out-Scenario %}). However, it was trickly to pick an overall heat transfer coefficient to represent the heat transfer during such event. So I googled around to see what I can find. Of course, people have already talked about it [here](http://www.eng-tips.com/viewthread.cfm?qid=155185) but arrived at no concencus. 
 
 So I went on to tackle this myself. 
@@ -62,7 +60,7 @@ And so
 
 $$U = h_{air} = 2.303\; \frac{hr\cdot ft^2\cdot F}{btu}$$
 
-Even though the value of $U$ above is pretty close to the $$3\; btu/hr\cdot ft^2\cdot F$$, it could have been a mere conincidence. Also, this has not accounted rain. That kind of question is best answered with an experiment and empirical equations.  
+Even though the value of $$U$$ above is pretty close to the $$3\; btu/hr\cdot ft^2\cdot F$$, it could have been a mere conincidence. Also, this has not accounted rain. That kind of question is best answered with an experiment and empirical equations.  
 
 Now, the rest of this writing is just more details on how to arrive at the conclusion here. Read on if you are interested. 
 
