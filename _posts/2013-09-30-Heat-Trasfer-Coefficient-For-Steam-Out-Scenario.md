@@ -7,15 +7,15 @@ tags: "engineer, relief valve, math, equation"
 layout: post
 ---
 
-I had a post on how to calculate the required relief rate for a [steam out scenario]({% post_url 2013-09-17-Steam-Out-Scenario %}). However, it was trickly to pick an overall heat transfer coefficient to represent the heat transfer during such event. So I googled around to see what I can find. Of course, people have already talked about it [here](http://www.eng-tips.com/viewthread.cfm?qid=155185) but arrived at no concencus. 
+I had a post on how to calculate the required relief rate for a [steam out scenario]({% post_url 2013-09-17-Steam-Out-Scenario %}). However, it was trickly to pick an overall heat transfer coefficient to represent the heat transfer during such event. So I googled around to see what I can find. Of course, people have already talked about it [in this forum here](http://www.eng-tips.com/viewthread.cfm?qid=155185) but arrived at no concencus. 
 
 So I went on to tackle this myself. 
 
 ## Pick a Heat Transfer Coefficient
-In a quick summary, most people from the forum just picked a number for the heat transfer coefficient:
+In a quick summary, people just picked a number for the heat transfer coefficient:
 
 1. I selected $$3\; btu/hr\cdot ft^2\cdot F$$ since I've seen it done before (not really a good reason, I know, but that's why I'm writing this). 
-2. Be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $$160\; btu/hr\cdot ft^2\cdot F$$. 
+2. Be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as steam-cast-iron-water is $$160\; btu/hr\cdot ft^2\cdot F$$. (still horrible)
 
 ## Calculate a Heat Transfer Coefficient
 Why pick random numbers without any justifications? **For fun**, we can estimate the heat transfer coefficients. Turns out, I get $$2.303\; btu/hr\cdot ft^2\cdot F$$. Picking $$3\; btu/hr\cdot ft^2\cdot F$$ weren't too crazy after all. 
