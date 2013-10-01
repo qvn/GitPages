@@ -183,7 +183,7 @@ So, the results are
 Thermal Expansion Coeff.    |$$\beta_f$$       |$$6.579 \times 10^{-3}$$
 Grashof Number              | $$Gr$$           |$$7.080 \times 10^{13}$$
 Prandtl Number              | $$Pr$$           |$$2.124 \times 10^{-6}$$
-$Gr$ & $Pr$ Product         | $$Gr \times Pr$$ |$$1.508 \times 10^8$$
+Gr & Pr Product             | $$Gr \times Pr$$ |$$1.508 \times 10^8$$
 
 With value of $$Gr \times Pr$$ known, we can now choose $$b=0.59$$ and $$n=0.25$$. Therefore,
 
