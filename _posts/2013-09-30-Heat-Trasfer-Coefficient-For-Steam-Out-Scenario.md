@@ -44,13 +44,13 @@ If we assume:
 
 We have the three terms:
 
-`
+$$
 \begin{align}
 \frac{1}{h_{steam}} & \approx \frac{1}{5000} =2.0\times 10^{-8} \\
 \frac{dx}{k_{steel}}&=\frac{0.156}{9.4} =1.662 \times 10^{-3} \\
 \frac{1}{h_{air}}&=\frac{1}{2.303} =0.410 \\
 \end{align}
-`
+$$
 And so we notice
 
 $$\frac{1}{h_{air}} >> \frac{dx}{k_{steel}} >> \frac{1}{h_{steam}}$$
@@ -110,7 +110,7 @@ Let’s assume the steel is $$3/16 in$$ ($$0.156ft$$) thick, the thinnest steel 
 
 $$\frac{dx}{k_{steel}}=\frac{0.156}{9.4}=1.662 \times 10^{-3}\;  \frac{hr\cdot ft^2\cdot F}{btu} $$
 
-The term $$dx\k_{steel}$$ is also the expression for thermal resistance. Looks like because we have a very thin steel plate, the thermal resistance is minimal. We could have ignored this term entirely. 
+The term $$dx/k_{steel}$$ is also the expression for thermal resistance. Looks like because we have a very thin steel plate, the thermal resistance is minimal. We could have ignored this term entirely. 
 
 ### Steam Convection
 Let’s take a look at what we know about these coefficients. 
