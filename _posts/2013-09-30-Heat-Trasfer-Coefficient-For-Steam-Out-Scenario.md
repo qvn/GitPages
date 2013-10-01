@@ -103,7 +103,7 @@ We can go through one at a time.
 ### Steel thermal conductivity
 Thermal conductivity for steel can be found in McCabe as $$9.4\; btu/hr\cdot ft^2\cdot F$$ 
 
-Let’s assume the steel is $$3/16 in$$ ($$0.156ft$$) thick, the thinnest steel plate used on tank that I've seen. So our heat transfer coefficient is: 
+Let’s assume the steel is $$3/16 in$$ ($$0.156ft$$) thick, the thinnest steel plate used on tanks that I've seen. So our heat transfer coefficient is: 
 
 $$\frac{dx}{k_{steel}}=\frac{0.156}{9.4}=1.662 \times 10^{-3}\;  \frac{hr\cdot ft^2\cdot F}{btu} $$
 
@@ -113,8 +113,7 @@ The term $$dx/k_{steel}$$ is also the expression for thermal resistance. Looks l
 Let’s take a look at what we know about these coefficients. 
 According to McCabe:
 
-Type of Process              | Heat Trasfer Coefficient $$(\frac{hr\cdot ft^2\cdot F}{btu})$$
------------------------------|-----------------------------
+**Type of Process**              | **Heat Trasfer Coefficient $$(\frac{hr\cdot ft^2\cdot F}{btu})$$**
 Steam drop-wise condensation | 5,000-20,000
 Steam film-wise condensation | 1,000-3,000
 Water (heating or cooling)   | 50-3,000 
@@ -153,8 +152,7 @@ $$\beta _f=\left ( \frac{\partial v}{\partial T} \right )_p\frac{1}{v} = \frac{1
 
 Values of $$b$$ and $$n$$ are 
 
-System          | Range of $$GrPr$$  | $$b$$    | $n$
-----------------|--------------------|----------|--------
+**System**      | **Range of $$GrPr$$** | $$b$$  | $$n$$
 Vertical plates | $$10^4-10^9$$      | $$0.59$$ | $$0.25$$
 Vertical plates | $$10^9-10^{12}$$   | $$0.13$$ | $$0.333$$
 
