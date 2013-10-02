@@ -1,7 +1,7 @@
 ---
 title: Testing Math Equations with MathJax
 layout: post
-tag: test, math, web, programming
+tag: [test, math, web, programming]
 category: note
 ---
 
