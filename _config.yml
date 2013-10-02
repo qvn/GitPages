@@ -3,7 +3,7 @@ title: Olidin Theus
 logo: Refinery2Black.jpg
 disqus_shortname: olidintheus
 search: true
-comment: true
+comments: true
 markdown: rdiscount 
 pygments:   true
 baseurl: http://www.olidin.com
