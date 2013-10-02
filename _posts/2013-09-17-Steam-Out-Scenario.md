@@ -2,9 +2,8 @@
 published: true
 layout: post
 category: articles
-tag: "engineering, overpressure, technical, oil & gas, math"
-comment: true
-comments: true
+tag: [engineering, overpressure, technical, oil & gas, math]
+
 ---
 
 I recently sized a vacuum vent for a steam-out scenario and API 2000 did not provide guidance to calculate required relief rate. I thought I should share. 
