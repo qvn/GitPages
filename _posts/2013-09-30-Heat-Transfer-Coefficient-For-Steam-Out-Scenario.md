@@ -3,7 +3,7 @@ published: true
 publish: true
 comments: true
 category: article
-tags: "engineer, relief valve, math, equation"
+tags: [engineer, relief valve, math, equation]
 layout: post
 ---
 
