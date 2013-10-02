@@ -1,6 +1,9 @@
 description: Chemical engineer. Stumbling around the web smelling like gasoline.
 title: Olidin Theus
 logo: Refinery2Black.jpg
+disqus_shortname: olidintheus
+search: true
+comment: true
 markdown: rdiscount 
 pygments:   true
 baseurl: http://www.olidin.com
@@ -11,10 +14,6 @@ owner:
     twitter: OlidinTheus
     github: olidin
 
-comment: true
-  provider : disqus
-  disqus :
-    short_name: olidintheus
 
 # Links to include in top navigation
 # For external links add external: true
