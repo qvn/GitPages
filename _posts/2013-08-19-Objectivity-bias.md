@@ -1,7 +1,7 @@
 ---
 layout: post
 category: note
-tag: "note, thinking, objectivity"
+tag: [note, thinking, objectivity]
 ---
 
 ## Are We Really Objective Even When We Tried?
