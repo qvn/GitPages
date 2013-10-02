@@ -1,7 +1,7 @@
 ---
 layout: post
 category: articles
-tags: vim, spf13, git, Vundle, sync
+tags: [vim, spf13, git, Vundle, sync]
 ---
 
 I have been fiddling with Vim lately while I was learning Ruby on Rails. The only thing I was learning was `hjkl` movement keys after using [mVim](https://code.google.com/p/macvim/) for about a few months, on and off.
