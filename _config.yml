@@ -23,6 +23,8 @@ links:
     url: /articles
   - title: About
     url: /about
+  - title: Tags
+    url: /tags.html
   - title: Contact
     url: "mailto:olidin@outlook.com"
     external: true
