@@ -2,7 +2,7 @@
 layout: post
 title: GTD - Getting Things Done
 category: note
-tag: gtd, note, review
+tag: [gtd, note, review]
 ---
 
 GTD has been somewhat of a [cult](http://www.43folders.com/forum/2006/09/05/gtd-cult). I'm now a new member. After using the methodology for a while, I'm at the point where most people get frustrated: 
