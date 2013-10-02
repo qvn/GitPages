@@ -12,6 +12,9 @@ owner:
     github: olidin
 
 comment: true
+  provider : disqus
+  disqus :
+    short_name: olidintheus
 
 # Links to include in top navigation
 # For external links add external: true
