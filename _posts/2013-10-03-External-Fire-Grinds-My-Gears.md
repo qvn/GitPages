@@ -17,15 +17,22 @@ I have worked with relief system for a while and usually when it comes to extern
 
 Some word of wisdom regarding external fire from API 521 Section 5.15.2.1:
 
-> API 521 [...] It is typically assumed that the vessel is isolated during a fire in order to simplify the analysis, although a more detailed analysis can be warranted in certain cases. Crediting for alternative relief paths that remain open during an overpressure event is generally an acceptable practice. [...] It can be difficult to establish with a degree of certainty whether a particular line will indeed remain open under all fire conditions. [..] Ultimately, the user shall decide whether a scenario is credible or not.
+> API 521 [...] It is typically assumed that the vessel is isolated during a fire in order to simplify the analysis, although a more detailed analysis can be warranted in certain cases. Crediting for alternative relief paths that remain open during an overpressure event is generally an acceptable practice. [...] 
 
-*Source: American Petroleum Institute, API RP 521. Guide for Pressure-Relieving and Depressuring Systems. 2008*
+Okay, cool cool
+
+> It can be difficult to establish with a degree of certainty whether a particular line will indeed remain open under all fire conditions. [..] 
+
+Thanks, I know it's hard, but I also know you'll help if I get stuck right?
+
+> Ultimately, the user shall decide whether a scenario is credible or not.
 
 Wonderful, this is what really grinds my gear:
 
 > What kind of guidance tell me it's up to me?
 
 ![what really grinds my gear](http://www.themobilityresource.com/wp-content/uploads/2013/05/grinds-my-gears.jpg)
+
 
 ## Here Comes the "Intepretations"
 
@@ -79,3 +86,7 @@ When things for open to intepretation, it does not favor to the engineer. Engine
 Does anyone else have this problem or it's just me?
 
 Curses!
+
+---
+
+*Source: American Petroleum Institute, API RP 521. Guide for Pressure-Relieving and Depressuring Systems. 2008*
