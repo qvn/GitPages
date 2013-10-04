@@ -84,7 +84,7 @@ However, we ventured into some arguable criteria to justify how we can rid of ex
 	
     The reasoning is that a small leak will not generate enough fuel flow rate to boil a large vessel of liquid to cause overpressure.
 
-    Okay, you have say, this one is a bit crazy. Calculating something like that would requires plenty of assumptions
+    Okay, you have to say, this one is a bit crazy. Calculating something like that would requires plenty of assumptions
     
 ## It's Gotta stop
 When things are open to intepretation, they do no favor to the engineer. Engineering judgement is a wrestle between costs and safety. And when being faced with these hypothetical questions (would it happen? how would it happen? is it likely?), it is best to conduct a study to know what's the probability is. 
@@ -92,8 +92,6 @@ When things are open to intepretation, they do no favor to the engineer. Enginee
 Sadly, that also costs money. And kill brain cells.
 
 Does anyone else have this problem or it's just me?
-
-Curses!
 
 ---
 
