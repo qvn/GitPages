@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: articles
+category: article
 tag: [engineering, overpressure, technical, oil & gas, math]
 
 ---

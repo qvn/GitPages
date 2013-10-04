@@ -1,6 +1,6 @@
 ---
 layout: post
-category: articles
+category: article
 tags: [vim, spf13, git, Vundle, sync]
 ---
 
