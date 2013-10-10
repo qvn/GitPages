@@ -30,7 +30,7 @@ Our existing means of communication are inefficient at transferring experiences 
 
 As language is predominately left brain, an interesting break from our typical mean of communication is the working with the right brain using the arts (painting, fiction, poetry, musics, movies, photography, etc). The arts are another avenue of communication. A subtle kind that provoke emotions. Provoking emotions is entirely different from describing it - experiencing an emotion is authentic whereas reconstructing it from a description is simulated. Movies and stories for example, are not about describing the emotion that ought to be experienced, but place the audience in a situation where the emotion arise naturally. 
 
-However, even the arts is not that great. They are sometimes intepreted differently between individuals, and may not provoke the intended emotions. Also, we can't quantify feelings (such as pain) with neither language or artistic expressions. And yes, I awaits the day where we can save and transfer someone's memory to another person's mind. 
+However, even the arts is not that great. They are sometimes intepreted differently between individuals, and may not provoke the intended emotions. Also, we can't quantify feelings (such as pain) with neither language or artistic expressions. 
 
 ## And So I Rest
 I can't see a four dimensional universe nor can I truly know what someone is experiecing. It's frustrating. For now, I rest with equations and eloquent proses. Or at times I simply give up:
