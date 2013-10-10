@@ -21,7 +21,7 @@ One interesting fact pointed out by the creature in Flat Land was: a higher dime
 
 For the first time I was told there are places that our imagination cannot take us. Our imagination is limited at constructing the higher dimensions even though we can describe them. What comes out when I attempt to imagine a 4th dimensional being is twisted and probably wrong.  
 
-### We Don't Communicate Well
+## We Don't Communicate Well
 I was thinking about this the other day, and I noticed that our imagination is limited elsewhere too. Just like our inability to access a higher dimensional world, we humans cannot access another human's mind. We can only describe, and simulate someone else's thought but we cannot take their thoughts as is and experience them unaltered.
 
 For instance, when we experience emotions and feelings or complex and abstract thoughts, we communicate these experiences via language, which is translated back into experiences via the listener imagination. However, such is lost in translation. Either we didn't "package" the thoughts so well into languages (not very eloquent or articulate) or the audience simply have inadequate resources to correctly reconstruct the experiences (weak comprehension or lack of reference). 
@@ -32,7 +32,7 @@ As language is predominately left brain, an interesting break from our typical m
 
 However, even the arts is not that great. They are sometimes intepreted differently between individuals, and may not provoke the intended emotions. Also, we can't quantify feelings (such as pain) with neither language or artistic expressions. And yes, I awaits the day where we can save and transfer someone's memory to another person's mind. 
 
-### And So I Rest
+## And So I Rest
 I can't see a four dimensional universe nor can I truly know what someone is experiecing. It's frustrating. For now, I rest with equations and eloquent proses. Or at times I simply give up:
 
 > "Man, I wish you can just see it".
