@@ -7,7 +7,8 @@ tags:
   - rant
 ---
 
-_Excerpt_ 
+_Excerpt_:
+
 I can't see a four dimensional universe nor can I truly know what someone is experiecing. It's frustrating. For now, I rest with equations and eloquent proses. Or at times I simply give up:
 
 > "Man, I wish you can just see it". 
