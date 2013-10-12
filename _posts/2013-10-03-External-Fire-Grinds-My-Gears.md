@@ -6,7 +6,7 @@ tags:
   - relief device
   - ranting
   - technical
-category: techincal
+category: ChE
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: article
+category: ChE
 tag: [engineering, overpressure, technical, oil & gas, math]
 
 ---

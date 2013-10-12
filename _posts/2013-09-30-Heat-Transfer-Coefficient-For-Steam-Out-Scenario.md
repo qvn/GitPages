@@ -2,7 +2,7 @@
 published: true
 publish: true
 comments: true
-category: article
+category: ChE
 tags: [engineer, relief valve, math, equation]
 layout: post
 ---

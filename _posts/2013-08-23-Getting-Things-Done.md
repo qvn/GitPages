@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GTD - Getting Things Done
-category: note
+category: general
 tag: [gtd, note, review]
 ---
 

@@ -1,5 +1,7 @@
 ---
 layout: post
+category: Code
+tags: [jekyll, code, tips]
 title: Rake for Jekyll
 date: 2012-09-06 22:47:07
 ---
