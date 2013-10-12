@@ -2,6 +2,7 @@
 published: true
 layout: post
 category: general
+comments: true
 tags: 
   - general
   - rant
