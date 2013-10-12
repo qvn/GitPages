@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-category: article
+category: general
 tags: 
   - general
   - rant
