@@ -18,9 +18,9 @@ I got [HomeBrew](brew.sh) on my mac and managed to replace mac `python 2.7.5` wi
 Relatively straight forward with Brew. If you don't have Homebrewm, just follow the instruction on the homepage:
 
 {% highlight bash %}
-	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-	brew doctor
-	brew install python
+		ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+		brew doctor
+		brew install python
 {% endhighlight %}
 
 Check your python version with `python --version`. 
