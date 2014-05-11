@@ -30,9 +30,7 @@ Check your python version with `python --version`.
 It should give 
 
 {% highlight bash %}
-
-	python 2.7.6
-
+python 2.7.6
 {% endhighlight %}
 
 If you are still getting `python 2.7.5` then make sure your path is correct. Check your `$PATH` with `echo $PATH`. Since brew install packages in `/usr/local/bin` instead of systemwide `/usr/bin`, make sure that your `$PATH` starts with `/usr/local/bin`. Add this to your `~/.bash_profile` (or `~/.profile` or `~/.bashrc` but stick with `~/.bash_profile` if you don't have the others):
