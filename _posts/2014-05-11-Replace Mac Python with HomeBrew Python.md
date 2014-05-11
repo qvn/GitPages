@@ -7,7 +7,7 @@ tags:
   - code
   - tips
   - brew
-title: Replace Mac Python with HomeBrew Python
+title: "Replace-Mac-Python-with-HomeBrew-Python"
 ---
 
 I got [HomeBrew](brew.sh) on my mac and managed to replace mac `python 2.7.5` with `python 2.7.6` because the [recent Maverick update messed up my python](http://stackoverflow.com/questions/22313407/clang-error-unknown-argument-mno-fused-madd-python-package-installation-fa) and keep giving the error:
