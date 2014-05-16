@@ -6,7 +6,7 @@ search: true
 comments: true
 highlighter: pygments
 #pygments: true
-#baseurl: http://www.olidin.com
+baseurl: http://www.olidin.com
 owner: 
     name: Olidin Theus
     avatar: avatar.jpg
