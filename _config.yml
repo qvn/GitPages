@@ -4,8 +4,9 @@ logo: Refinery2Black.jpg
 disqus_shortname: OlidinTheus
 search: true
 comments: true
-pygments: true
-baseurl: http://www.olidin.com
+highlighter: pygments
+#pygments: true
+#baseurl: http://www.olidin.com
 owner: 
     name: Olidin Theus
     avatar: avatar.jpg
