@@ -19,7 +19,6 @@ task :default do
   File.open(path, 'w') do |file|
     file.write <<-EOS
 	
-# YAML Front Matter
 ---
 layout: post
 title: #{title}
