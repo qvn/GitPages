@@ -8,6 +8,7 @@ tags:
   - writing
   - rant
 comments: true
+share: true
 ---
 
 I’m an engineer and I suffer from writer block. It’s feels almost wrong to utter the word “writer” when I hardly even write. It’s like I’m getting a disease that I’m not even entitled to get. It’s like a vegetarian very loudly complaining about salmonella poisoning from raw meat.
