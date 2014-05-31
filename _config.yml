@@ -5,13 +5,12 @@ disqus_shortname: OlidinTheus
 search: true
 comments: true
 highlighter: pygments
-#pygments: true
 baseurl: http://www.olidin.com
 owner: 
     name: Olidin Theus
     avatar: avatar.jpg
-    email: Olidin@outlook.com
-    twitter: OlidinTheus
+    email: qvn@outlook.com
+    twitter: qvn_
     github: olidin
 
 
@@ -32,7 +31,7 @@ links:
  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      true
-pygments:    true
+highlighter: pygments
 markdown:    kramdown       
 
 # Analytics and webmaster tools stuff goes here

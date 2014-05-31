@@ -11,11 +11,11 @@ I'm no expert at Rails but from [what I gathered](http://jasonseifer.com/2010/04
 Rake can be used to create a new post or page for Jekyll. However, I happened to be using the original [Jekyll](https://github.com/mojombo/jekyll), there isn't any Rake file. And Jekyll is a bit underdocumented. So, whenever I attempt 'rake', error occurs:
 
 {% highlight bash%}
-	rake
-	rake aborted!
-	No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+rake	
+rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
 
-	(See full trace by running task with --trace)
+(See full trace by running task with --trace)
 
 {% endhighlight %}	
 
@@ -34,38 +34,38 @@ And here is my rake file that I use to create post every time.
 
 {% highlight ruby %}
 	
-	# Sources:
-	# http://jasonseifer.com/2010/04/06/rake-tutorial
-	# http://elia.wordpress.com/2008/11/07/get-input-in-rake-tasks/
-	# http://www.layouts-the.me/rake/2011/04/23/rake_tasks_for_jekyll/
+# Sources:
+# http://jasonseifer.com/2010/04/06/rake-tutorial
+# http://elia.wordpress.com/2008/11/07/get-input-in-rake-tasks/
+# http://www.layouts-the.me/rake/2011/04/23/rake_tasks_for_jekyll/
 
-	# Asking for title
-	def ask message
-	print message
-	STDIN.gets.chomp
-	end
-	title = ask('Title: ')
-	
-	#Create new a post
-	desc "Default 'rake' command creates a new post"
-	task :default do
-	  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '_').downcase}.markdown"
-	  path = File.join("_posts", filename)
-	  if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
-	  File.open(path, 'w') do |file|
-	    file.write <<-EOS
-	
-	# YAML Front Matter
-	---
-	layout: post
-	title: #{title}
-	date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
-	---
-	EOS
-	    end
+# Asking for title
+def ask message
+print message
+STDIN.gets.chomp
+end
+title = ask('Title: ')
 
-	# invoke Textmate to edit file
-	# sh "mate #{path}"
+#Create new a post
+desc "Default 'rake' command creates a new post"
+task :default do
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '_').downcase}.markdown"
+  path = File.join("_posts", filename)
+  if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
+  File.open(path, 'w') do |file|
+    file.write <<-EOS
+
+# YAML Front Matter
+---
+layout: post
+title: #{title}
+date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+---
+EOS
+end
+
+# invoke Textmate to edit file
+# sh "mate #{path}"
 	
 	end
 	
