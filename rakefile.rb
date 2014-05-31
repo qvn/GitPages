@@ -23,7 +23,21 @@ task :default do
 layout: post
 title: #{title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+
+published: true
+layout: post
+category: general
+comments: true
+share: true
+
+image:
+  feature: 
+  credit: 
+  creditlink: 
+
+tags: [tag1,tag2]
 ---
+
 EOS
     end
 

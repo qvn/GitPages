@@ -4,6 +4,10 @@ date: 2014-05-30 20:02:46
 published: true
 layout: post
 category: general
+image:
+  feature: Feature-Image_On-Writer-Block.jpg
+  credit: Leo Reynolds
+  creditlink: https://www.flickr.com/photos/lwr/
 tags: 
   - writing
   - rant
