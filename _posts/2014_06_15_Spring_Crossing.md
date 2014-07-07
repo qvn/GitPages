@@ -1,4 +1,14 @@
-
+---
+title: Spring Crossing
+date: 2014-06-15 20:02:46
+published: true
+layout: post
+category: general
+tags: 
+  - writing
+comments: true
+share: true
+---
 
 It’s spring time and this part of the land has changed. The turtle has traveled for days to the swamp far away from its nest for a place to hibernate. It has done this trip every year but never seen any part of the land like this before: the grass seemed to just disappear and the soil turned black and hard. The black soil stretch so far left and right that going around it would have been impractical. The turtle decided to approach and possibly cross the black soil if it has any hope of seeing the water beyond.
 
