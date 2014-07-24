@@ -17,6 +17,16 @@ image:
 tags: [markdown, code, general]
 ---
 
+**Update**: The same day that I wrote this blog post I also discovered [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables). They allow import of CVS files as well as direct copy and paste tables which then get coverted to Markdown tables. That's a lot faster. Go there instead. 
+
+--------
+
+I compose my blog and emails and even Evernote with Markdown, I typically use [Markdown Here](http://markdown-here.com/) for quick and easy converts. However, sometimes I needed a table to be sent via emails to other folks. Typing up a markdown table is a real pain, so I just create a function in excel to do the routine for me. 
+
+
+
+## A Custom Function
+
 To get the table below, we define a custom function:
 
 ```
@@ -63,17 +73,12 @@ PSV Tag|Size|Capacity|New Capacity|Restrict %|Area (sqin)
 
 The resulting table is: 
 
-| sdfsdf | sdfsdfsdf | sdfsdf | sdfsdf | sdfsdf |
-|--------|-----------|--------|--------|--------|
-| sdfsdf | sdfsdf    | sdfsdf | sdfsdf | sdfsdf |
-| sdfsdf | sdfsdf    | sdfsdf | sdfsdf | sdfsdf |
-| sdfsdf | sdfsdf    | sdfsdf |        | sdfsdf |
+PSV Tag|Size|Capacity|New Capacity|Restrict %|Area (sqin)
+-|-|-|-|-|-
+29.2-93-0004|8T10|210,079|174,219|83%|24
+29.2-93-0005|8T11|210,079|166,960|79%|23
+29.2-93-0006|8T12|210,079|130,664|62%|17
 
 
-|Tables        | Are           | Cool  |
-|------------- |-------------| -----|
-|col 3 is      | right-aligned | $1600 |
-|col 2 is      | centered   |   $12 |
-|zebra stripes | are neat   |    $1 |
 
 [1]: http://answers.microsoft.com/en-us/office/forum/office_2013_release-excel/concatenate-cell-range-separate-with-comma-except/e69a044a-e279-4ee1-be0c-ea4a2300d33c
