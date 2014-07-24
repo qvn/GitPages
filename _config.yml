@@ -36,7 +36,14 @@ highlighter: pygments
 markdown: redcarpet
 markdown: redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  extensions: ["fenced_code_blocks", "autolink", "tables"]
+
+maruku:
+  use_tex:    true
+  use_divs:   true
+  png_engine: blahtex
+  png_dir:    images/latex/
+  png_url:    /images/latex/
 
 #markdown:    kramdown   
 #maruku:
