@@ -33,7 +33,14 @@ links:
 timezone:    America/Chicago
 future:      true
 highlighter: pygments
-markdown:    kramdown       
+markdown: redcarpet
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+#markdown:    kramdown   
+#maruku:
+#  fenced_code_blocks: true    
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-43303226-1 
@@ -46,14 +53,14 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
 
   coderay:
     # Turn off coderay line number
-    coderay_line_numbers: ''
+    # coderay_line_numbers: ''
     coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+    # coderay_bold_every: 10
+    # coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
