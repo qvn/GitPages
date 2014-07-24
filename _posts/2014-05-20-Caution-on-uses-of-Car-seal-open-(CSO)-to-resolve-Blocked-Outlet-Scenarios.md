@@ -29,7 +29,7 @@ After reviewing API 521 6th Section 4.2.2 in the hierarchy of protective measure
 2.	Engineering controls
 3.	Administrative control
 
-Regarding the administrative control, the spirit of [API 521 Section 4.2.2](#API521422) is: 
+Regarding the administrative control, the spirit of [API 521 Section 4.2.2](# API521422) is: 
 
 > An administrative control should be used as a protection measure if the potential overpressure does not exceed the corrected hydrotest pressure
 
@@ -38,22 +38,15 @@ I have been doing this wrong for so long (well, for moths at least). We have the
 For example, I recently reviewed a recommendation to CSO a gate valve on the outlet of a PD pump to avoid blocked outlet scenario. This approach turns out to be inappropriate. In the event that administrative control failure, the valve does get shut, the PD can overpressure itself. Like in API 521 6th Section 4.4.2.1 clearly said:
 
 > [..]administrative controls can be used to prevent the closed outlet scenario unless the resulting pressure exceeds the maximum allowed by the pressure design code [usually the corrected hydrotest pressure is exceeded (see 3.1.22 and 4.2.2)].[..]
-
 So now, whether CSO outlet gate valve or not, we still need a relief device (engineering controls).  
-
 Though my next question would be, if we have a HIPS on a control valve that is used to eliminate the control valve failure, is this considered administrative control? If so, then should we consider failure of this system and whether overpressure can exceed the hydrotested pressure of the protected system? Hopefully this philosophy is not overriding the HIPS credit. 
-
 Note: The ASME VIII Appendix M is non-mandatory. Therefore, the consideration of administrative control failure is only recently made clear to me through API 6th edition. 
 
 ---
 
-### <a name="API521422">API 521 6th 4.2.2</a>
-
-Use of Administrative Controls if Corrected Hydrotest Pressure Not Exceeded
-
+<a name="API521422"></a>API 521 6th 4.2.2  Use of Administrative Controls if Corrected Hydrotest Pressure Not Exceeded
 Certain pressure design codes allow the use of administrative controls if the potential overpressure does not exceed the corrected hydrotest pressure, whereas other pressure design codes do not address this subject. Therefore, applying this for equipment built to pressure design codes that do not address the issue could cause the equipment to be overstressed. In these cases, the user should perform mechanical analyses and/or risk analyses. This philosophy is applied to the following scenarios:
-
-a. closed outlets on vessels (see 4.4.2),
-b. inadvertent valve opening (see 4.4.9.2),
-c. check valve leakage or failure (see 4.4.9.3),
-d. heat transfer equipment failure (see 4.4.14).
+a)	closed outlets on vessels (see 4.4.2),
+b)	inadvertent valve opening (see 4.4.9.2),
+c)	check valve leakage or failure (see 4.4.9.3),
+d)	heat transfer equipment failure (see 4.4.14).
