@@ -17,7 +17,7 @@ image:
 tags: [markdown, code, general]
 ---
 
-**Update**: The same day that I wrote this blog post I also discovered [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables). They allow import of CVS files as well as direct copy and paste tables which then get coverted to Markdown tables. That's a lot faster. Go there instead. 
+**Update**: The same day that I wrote this blog post I also discovered [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables). They allow import of CVS files as well as direct copy and paste tables which then get coverted to Markdown tables. That's a lot faster. **My routine below no longer works**. 
 
 --------
 
