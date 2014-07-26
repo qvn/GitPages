@@ -28,14 +28,13 @@ published: true
 layout: post
 comments: true
 share: true
-
 image:
   feature: 
   credit: 
   creditlink: 
 
 tags: [tag1,tag2]
-category: general
+category: [cat1, cat2]
 ---
 
 EOS

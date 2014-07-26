@@ -1,10 +1,12 @@
 ---
 published: true
 layout: post
+comments: true
 category: ChE
 tag: [engineering, overpressure, technical, oil & gas, math]
 
 ---
+
 
 I recently sized a vacuum vent for a steam-out scenario and API 2000 did not provide guidance to calculate required relief rate. I thought I should share. 
 
@@ -20,27 +22,27 @@ The equations needed for calculations are simple. We assume steady state and sta
 
     $$\dot{Q}=UA(T-T_w)$$
 
-2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change ($$\dot{V}$$) by:
+2. Heat loss is provided by the condensation of steam, which can be related to the volumetric change ($\dot{V}$) by:
 
     $$\dot{Q}=\dot{m}\lambda=\rho\dot{V}\lambda$$
 
 3. Combining two two expressions, we have the volumetric change:
 
-   $$\dot{V}=\frac{UA(T-T_w)}{\lambda\rho}$$
+    $$\dot{V}=\frac{UA(T-T_w)}{\lambda\rho}$$
     
-   $$T$$: Steam saturation temperature
+    $T$: Steam saturation temperature
    
-   $$λ$$: Steam latent heat at saturation
+    $λ$: Steam latent heat at saturation
    
-   $$ρ$$: Steam density at saturation
+    $ρ$: Steam density at saturation
    
-   $$U$$: Overall heat transfer coefficient
+    $U$: Overall heat transfer coefficient
    
-   $$T_w$$: Tank wall temperature
+    $T_w$: Tank wall temperature
    
-   $$A$$: Surface area
+    $A$: Surface area
    
-   $$\dot{V}$$: Volumetric change
+    $\dot{V}$: Volumetric change
 
 ## Defining Relieving Condition
 
@@ -62,24 +64,24 @@ $$ρ = 0.0373018\: lb/ft^3$$
 
 ## Heat Transfer Coefficient
 
-Let's assume heat transfer coefficient $$U$$ is constant throughout the tank and constant during the relief. Picking which value to use is [a topic of debate](http://www.eng-tips.com/viewthread.cfm?qid=155185). I myself contemplate about this. 
+Let's assume heat transfer coefficient $U$ is constant throughout the tank and constant during the relief. Picking which value to use is [a topic of debate](http://www.eng-tips.com/viewthread.cfm?qid=155185). I myself contemplate about this. 
 
 However, at this point, pick a side and stick with it. 
 
-I have been using $$3\; btu/hr\cdot ft^2\cdot F$$ value for my evaluations since I have seen another engineering analysis used it before. Or we can be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as *steam-cast-iron-water* is $$160\; btu/hr\cdot ft^2\cdot F$$. That should be safe.
+I have been using $3\; btu/hr\cdot ft^2\cdot F$ value for my evaluations since I have seen another engineering analysis used it before. Or we can be conservative and treat the condensation as if it's occuring in a exchanger. According to [engineering toolbox](http://www.engineeringtoolbox.com/overall-heat-transfer-coefficients-d_284.html), heat transfer coefficient for an exchanger with combination of fluid and material as *steam-cast-iron-water* is $160\; btu/hr\cdot ft^2\cdot F$. That should be safe.
 
 It could be confusing to know which heat transfer coefficient to pick and I unfortunately cannot provide a better answer. I myself is very uncertain of what to do. Hopefully there will be research and data to answer this.  
 
 So what do I say when I don't know the answer to your question? *Use your engineering judgement*. Or if you know the answer, please let me know! Cheers.
 
 ## Wall Temperature
-Let's assume we have a cold day in Texas ($$60^{\circ}F$$) and wall temperature is uniform and the same as ambient temperature during relief. You ought to consider your weather when picking this $$T_w$$ value. Folks in Alaska will say $$60^{\circ}F$$ is pretty toasty. 
+Let's assume we have a cold day in Texas $60^{\circ}F$ and wall temperature is uniform and the same as ambient temperature during relief. You ought to consider your weather when picking this $T_w$ value. Folks in Alaska will say $60^{\circ}F$ is pretty toasty. 
 
 ## Surface Area 
 Only take into accound the area that is exposed to ambient air. That is, exclude the bottom area and include the roof area. 
 
 ## Putting It All Together
-Once you have made a decision on which wall temperature to use for your location, and stick with 0 psig saturated steam, the only variable left is the area ($$A$$). You can be wise and combine all the constants into one and vary $$U\cdot A$$ for different tanks:
+Once you have made a decision on which wall temperature to use for your location, and stick with 0 psig saturated steam, the only variable left is the area ($A$). You can be wise and combine all the constants into one and vary $U\cdot A$ for different tanks:
 
 $$\dot{V}=\frac{hA(T-T_w)}{\lambda\rho}=\frac{U\cdot A(212-60)}{973\cdot 0.0373018}=4.18794\cdot h\cdot A$$
 

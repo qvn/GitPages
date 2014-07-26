@@ -1,11 +1,11 @@
 description: Chemical engineer. Stumbling around the web smelling like gasoline.
-title: Olidin Theus
+title: Quyen Nguyen
 logo: Refinery2Black.jpg
 disqus_shortname: OlidinTheus
 search: true
 comments: true
 highlighter: pygments
-baseurl: http://www.olidin.com
+baseurl: http://www.quyennguyen.com
 owner: 
 
 owner:
@@ -26,14 +26,28 @@ links:
   - title: Categories
     url: /categories.html
   - title: Contact
-    url: "mailto:olidin@outlook.com"
+    url: "mailto:qvn@outlook.com"
     external: true
 
  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      true
 highlighter: pygments
-markdown:    kramdown       
+markdown: redcarpet
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "autolink", "tables"]
+
+maruku:
+  use_tex:    true
+  use_divs:   true
+  png_engine: blahtex
+  png_dir:    images/latex/
+  png_url:    /images/latex/
+
+#markdown:    kramdown   
+#maruku:
+#  fenced_code_blocks: true    
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-43303226-1 
@@ -46,14 +60,14 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
 
   coderay:
     # Turn off coderay line number
-    coderay_line_numbers: ''
+    # coderay_line_numbers: ''
     coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+    # coderay_bold_every: 10
+    # coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
