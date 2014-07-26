@@ -13,7 +13,7 @@ title = ask('Title: ')
 #Create new a post
 desc "Default 'rake' command creates a new post"
 task :default do
-  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '_').downcase}.md"
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/\s/, '-').downcase}.md"
   path = File.join("_posts", filename)
   if File.exist? path; raise RuntimeError.new("File exists #{path}"); end
   File.open(path, 'w') do |file|
@@ -26,7 +26,6 @@ date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 
 published: true
 layout: post
-category: general
 comments: true
 share: true
 
@@ -36,6 +35,7 @@ image:
   creditlink: 
 
 tags: [tag1,tag2]
+category: general
 ---
 
 EOS
