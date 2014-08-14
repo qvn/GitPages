@@ -14,12 +14,10 @@
 	
 	body { 
 		padding-top:20px;
-		background:url('http://graus.nu/blog/wp-content/themes/graus2/concrete2.png') fixed;
 		font-family:helvetica,arial;
-		text-shadow:#000 0px 1px 1px;
 		}
 	node { 
-		stroke-width: 1.5px;
+		stroke-width: 0.5px;
 		}
 	.graph {
 		margin:0 auto;
@@ -99,7 +97,7 @@ d3.json(graph, function(json) {
 			.data(json.links)
 			.enter().append("line")
 			.attr("stroke-opacity", function(d) { if(d.label == 'is a') { return '0.8';} else{ return '0.2'; }; })
-			.attr("stroke-width","6")
+			.attr("stroke-width","1")
 			.style("stroke", function(d) { if(d.color !== null) { return d.color;}; })
 			.on("mouseover", function(){d3.select(this).style("stroke", "#999999").attr("stroke-opacity", "1.0");})
 			.on("mouseout", function(){d3.select(this).style("stroke", function(d) { if(d.color !== null) { return d.color;}; }).attr("stroke-opacity", function(d) { if(d.label == 'is a') { return '0.8';} else { return '0.2'; };}) });
