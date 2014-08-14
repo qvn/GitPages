@@ -96,6 +96,14 @@ function makeDiag(error, nodes, links, table) {
                         return "translate(" + d.x + "," + d.y + ")";
                         });
                }); // End tick func
+    var x = d3.scale.linear()
+    .domain([0, width])
+    .range([0, width]);
+
+    var y = d3.scale.linear()
+    .domain([0, height])
+    .range([height, 0]);
+    
     function zoom() {
               circle.attr("transform", transform);
     }
