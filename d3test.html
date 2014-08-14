@@ -49,12 +49,12 @@ queue()
 /* Define the main worker or execution function */
 function makeDiag(error, nodes, links, table) {
     var x = d3.scale.linear()
-    .domain([0, width])
-    .range([0, width]);
+    .domain([0, w])
+    .range([0, w]);
 
     var y = d3.scale.linear()
-    .domain([0, height])
-    .range([height, 0]);
+    .domain([0, h])
+    .range([h, 0]);
     /* Draw the node labels first */
    var texts = svg.selectAll("text")
                     .data(nodes)
