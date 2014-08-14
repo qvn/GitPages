@@ -27,6 +27,7 @@
                     .append("svg")
                     .attr("height",h)
                     .attr("width",w);
+                    .call(d3.behavior.zoom().x(x).y(y).scaleExtent([1, 8]).on("zoom", zoom));
 /* Build the directional arrows for the links/edges */
         svg.append("svg:defs")
                     .selectAll("marker")
@@ -90,7 +91,7 @@ function makeDiag(error, nodes, links, table) {
                     .attr("opacity", 0.5)
                     .style("fill", function(d,i) { return color(i); })
                     /*.call(force.drag);*/
-                    .call(d3.behavior.zoom().x(x).y(y).scaleExtent([1, 8]).on("zoom", zoom));
+                    .attr("transform", transform);
     /* Run the Force effect */
     force.on("tick", function() {
                edges.attr("x1", function(d) { return d.source.x; })
