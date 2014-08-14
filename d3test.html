@@ -15,6 +15,9 @@
 <body>
 <script type="text/javascript">
  
+ 
+
+ 
 /* Set the diagrams Height & Width */
     var h = 500, w = 950;
 /* Set the color scale we want to use */
@@ -92,6 +95,13 @@ function makeDiag(error, nodes, links, table) {
                         return "translate(" + d.x + "," + d.y + ")";
                         });
                }); // End tick func
+    function zoom() {
+              circle.attr("transform", transform);
+    }
+
+    function transform(d) {
+              return "translate(" + x(d[0]) + "," + y(d[1]) + ")";
+}
 }; // End makeDiag worker func
 </script>
 </body>
