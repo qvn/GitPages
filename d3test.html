@@ -22,7 +22,22 @@
     var h = 500, w = 950;
 /* Set the color scale we want to use */
     var color = d3.scale.category20();
-/* Establish/instantiate an SVG container object */
+
+/* Pre-Load the json data using the queue library */
+queue()
+    .defer(d3.json, "nodes.json")
+    .defer(d3.json, "links.json")
+    .await(makeDiag); 
+/* Define the main worker or execution function */
+function makeDiag(error, nodes, links, table) {
+    var x = d3.scale.linear()
+    .domain([0, w])
+    .range([0, w]);
+
+    var y = d3.scale.linear()
+    .domain([0, h])
+    .range([h, 0]);
+    /* Establish/instantiate an SVG container object */
     var svg = d3.select("body")
                     .append("svg")
                     .attr("height",h)
@@ -42,20 +57,6 @@
                     .attr("orient", "auto")
                     .append("svg:path")
                     .attr("d", "M0,-5L10,0L0,5");
-/* Pre-Load the json data using the queue library */
-queue()
-    .defer(d3.json, "nodes.json")
-    .defer(d3.json, "links.json")
-    .await(makeDiag); 
-/* Define the main worker or execution function */
-function makeDiag(error, nodes, links, table) {
-    var x = d3.scale.linear()
-    .domain([0, w])
-    .range([0, w]);
-
-    var y = d3.scale.linear()
-    .domain([0, h])
-    .range([h, 0]);
     /* Draw the node labels first */
    var texts = svg.selectAll("text")
                     .data(nodes)
