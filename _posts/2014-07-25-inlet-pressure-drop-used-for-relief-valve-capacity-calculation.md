@@ -17,7 +17,7 @@ We just recently transitioned to a new software that size different relief syste
 
 Let's just pick one of the capacity equation. In this case, API 520 7th Ed. Eq. 3.2 equation for Critical Flow sizing:
 
-$$ A=\frac{W}{CK_{d}P_{1}K_{b}K_{c}}\sqrt{\frac{TZ}{M}} $$
+$$A=\frac{W}{CK_{d}P_{1}K_{b}K_{c}}\sqrt{\frac{TZ}{M}}$$
 
 That $P_1$ is the "absolute upstream relief pressure", which is the set pressure + allowed overpressure + atmospheric pressure. 
 
