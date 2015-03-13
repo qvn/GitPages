@@ -39,7 +39,7 @@ API 520 Part I 9th Ed. Ballot 2013 Section 5.4.1.1:
 
 You can obtain a copy of the ballot [here][1]. Since the link is public via a google search, I'm assuming I haven't violated any copyrights (fingers crossed). 
 
-[1]: ballots.api.org/cre/scprs/ballots/docs/520Part1/520Part19thBallot2July2013.pdf
+[1]: http://ballots.api.org/cre/scprs/ballots/docs/520Part1/520Part19thBallot2July2013.pdf
 
 
 
