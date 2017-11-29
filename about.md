@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About Theus
+title: About
 published: true
 ---
 
